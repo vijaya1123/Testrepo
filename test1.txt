@@ -1,10 +1,1 @@
- Volume in drive C has no label.
- Volume Serial Number is CE8A-3AB5
-
- Directory of C:\Users\SHARMAPC\Desktop\myproject
-
-11/11/2020  03:58 PM    <DIR>          .
-11/11/2020  03:58 PM    <DIR>          ..
-11/11/2020  03:58 PM                 0 test1.txt
-               1 File(s)              0 bytes
-               2 Dir(s)   4,425,019,392 bytes free
+this is  test
