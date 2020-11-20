@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" Parametrisation " duration-ms="4643" started-at="2020-11-02T10:09:46Z" finished-at="2020-11-02T10:09:51Z">
+    <groups>
+    </groups>
+    <test name=" Test Parametrisation" duration-ms="4643" started-at="2020-11-02T10:09:46Z" finished-at="2020-11-02T10:09:51Z">
+      <class name="com.data.Dataprovider.TestParallel">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:com.data.Dataprovider.TestParallel@7c703b]" name="doLogin" duration-ms="2196" started-at="2020-11-02T15:39:46Z" finished-at="2020-11-02T15:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.data.Dataprovider.TestParallel -->
+    </test> <!--  Test Parametrisation -->
+    <test name="  Test Paramterisation2" duration-ms="4642" started-at="2020-11-02T10:09:46Z" finished-at="2020-11-02T10:09:51Z">
+      <class name="com.data.Dataprovider.TestParallel">
+        <test-method status="PASS" signature="doLogin(java.lang.String)[pri:0, instance:com.data.Dataprovider.TestParallel@13c0b17]" name="doLogin" duration-ms="2196" started-at="2020-11-02T15:39:46Z" finished-at="2020-11-02T15:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.data.Dataprovider.TestParallel -->
+    </test> <!--   Test Paramterisation2 -->
+  </suite> <!--  Parametrisation  -->
+</testng-results>

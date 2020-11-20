@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Regression Suite">
+
+	<!-- <groups> <run> <include name="functional"></include> </run> </groups> -->
+	<listeners>
+		<listener class-name="com.data.listener.CustomListener"></listener>
+	</listeners>
+
+
+	<test name=" regression login Test">
+		<groups>
+			<run>
+				<include name="bvt"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.data.regression.Test4" />
+		</classes>
+	</test>
+
+
+	<test name="regression validation Test">
+
+		<classes>
+			<class name="com.data.regression.Test5" />
+		</classes>
+	</test> <!-- Test -->
+	<test name=" regression failure Test">
+		<classes>
+			<class name="com.data.regression.TestFailure" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

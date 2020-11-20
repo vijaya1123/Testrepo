@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ Functional Suite]">
+  <test name=" Login Test">
+    <classes>
+      <class name="com.data.testng.Test1"/>
+    </classes>
+  </test> <!--  Login Test -->
+  <test name=" validating title Test">
+    <classes>
+      <class name="com.data.testng.TestDependsonmethods"/>
+    </classes>
+  </test> <!--  validating title Test -->
+  <test name=" Dependency  Test">
+    <classes>
+      <class name="com.data.testng.Test2"/>
+    </classes>
+  </test> <!--  Dependency  Test -->
+</suite> <!-- Failed suite [ Functional Suite] -->

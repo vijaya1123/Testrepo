@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" Parametrisation ">
+	<test name=" Test Parametrisation">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="env" value="qa"></parameter>
+		<classes>
+			<class name="com.data.Dataprovider.TestParametrisation" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="  Test Paramterisation2">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="env" value="uat"></parameter>
+		<classes>
+			<class name="com.data.Dataprovider.TestParametrisation2" />
+		</classes>
+	</test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
